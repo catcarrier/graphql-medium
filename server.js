@@ -10,7 +10,6 @@ var schema = buildSchema(`
     }
 `);
 
-
 // Root resolver
 var root = {
     message: () => 'Hi there!'
